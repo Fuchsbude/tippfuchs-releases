@@ -54,16 +54,22 @@ Active Directory, Betrieb auf dem Terminalserver und ein **Kurzzeit-Passwort** f
 
 Voraussetzung: Windows 10 (ab 1809) oder Windows 11. Alles Nötige ist in der Datei enthalten.
 
-> **Hinweis:** Beim ersten Start kann Windows „Der Computer wurde durch Windows geschützt“ anzeigen,
-> weil Tippfuchs (noch) nicht mit einem kostenpflichtigen Zertifikat signiert ist.
-> Dann auf **Weitere Informationen → Trotzdem ausführen** klicken.
+> **Hinweis:** Tippfuchs ist (noch) nicht mit einem kostenpflichtigen Zertifikat signiert.
+> Beim ersten Start kann Windows deshalb „Der Computer wurde durch Windows geschützt“ anzeigen –
+> dann auf **Weitere Informationen → Trotzdem ausführen** klicken.
+> Auf manchen Windows-11-PCs ist **Smart App Control** aktiv; dort kann Windows Tippfuchs blockieren.
+> Eine Version im Microsoft Store ist geplant.
+
+**Updates:** Tippfuchs schaut einmal am Tag nach, ob es eine neue Version gibt, und fragt dich, bevor es
+aktualisiert. Installiert werden nur Updates, die mit dem Schlüssel der Fuchsbude signiert sind.
 
 **Deinstallieren:** *Einstellungen → Apps → Tippfuchs → Deinstallieren*. Deine Bausteine kannst du dabei behalten.
 
 ## Deine Daten
 
 Tippfuchs speichert Bausteine und Einstellungen nur auf deinem PC (bzw. in der Datei, die du wählst)
-und sendet nichts ins Internet.
+und sendet nichts ins Internet. Einzige Verbindung: einmal am Tag die Frage an GitHub, ob es eine neue
+Version gibt – abschaltbar unter *Einstellungen → Täglich nach Updates suchen*.
 
 ## Fragen, Ideen, Fehler?
 
